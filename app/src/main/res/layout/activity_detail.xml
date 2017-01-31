@@ -9,5 +9,31 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jspark.android.basiclist.DetailActivity">
+    <TextView
+        android:id="@+id/tvNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No : "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/txtNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvNo"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNo"
+        android:text="DAY : "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNo"
+        android:layout_toRightOf="@id/tvDay"
+        android:textSize="20sp"/>
 
 </RelativeLayout>
