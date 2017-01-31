@@ -62,7 +62,7 @@ public class CustomAdapter extends BaseAdapter {
         txtNo = (TextView)view.findViewById(R.id.tv1); // inflate된 뷰를 통해서 findViewById를 사용한다
         txtDay = (TextView)view.findViewById(R.id.tv2);
 
-        txtNo.setText(""+(i+1));
+        txtNo.setText(""+(i+1)); // int -> String 캐스팅
         txtDay.setText(data[i]);
 
         return view;
